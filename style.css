@@ -15,9 +15,65 @@ header {
 
 section {
     padding: 20px 40px;
+
+
+    /* Container to center all buttons */
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;       /* Space between buttons */
+  margin-top: 30px;
+  flex-wrap: wrap; /* Wrap to next line on small screens */
+}
+
+/* Common button style */
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Email Button */
+.email-button {
+  background-color: #EA4335; /* Gmail red */
+  color: white;
+}
+
+.email-button:hover {
+  box-shadow: 0 0 10px #EA4335, 0 0 20px #EA4335, 0 0 30px #EA4335;
+  transform: scale(1.05);
+}
+
+/* LinkedIn Button */
+.linkedin-button {
+  background-color: #0A66C2;
+  color: white;
+}
+
+.linkedin-button:hover {
+  box-shadow: 0 0 10px #0A66C2, 0 0 20px #0A66C2, 0 0 30px #0A66C2;
+  transform: scale(1.05);
+}
+
+/* GitHub Button */
+.github-button {
+  background-color: #333333;
+  color: white;
+}
+
+.github-button:hover {
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+  transform: scale(1.05);
+}
+
 }
 
 h2 {
     color: #0a2540;
 }
+
 
