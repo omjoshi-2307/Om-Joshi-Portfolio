@@ -4,9 +4,12 @@ Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming,
 
 ## 🔹 Skills
 - C, C++
+- Python
+- Data Structures & Algorithms (DSA) – Learning Journey Started
 - Git & GitHub
 - Arduino & IoT basics
 - HTML & CSS
+
 
 ## 🔹 Projects
 **[WALL-E – Autonomous Obstacle Avoiding Robot](https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot)**  
