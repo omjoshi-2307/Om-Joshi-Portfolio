@@ -13,20 +13,15 @@ header {
     text-align: center;
 }
 
-section {
-    padding: 20px 40px;
-
-
-    /* Container to center all buttons */
-.contact-buttons {
+section {.contact-buttons {
   display: flex;
   justify-content: center;
-  gap: 20px;       /* Space between buttons */
+  gap: 18px;
+  flex-wrap: wrap;
   margin-top: 30px;
-  flex-wrap: wrap; /* Wrap to next line on small screens */
 }
 
-/* Common button style */
+/* Common styles */
 button {
   padding: 12px 24px;
   border: none;
@@ -34,39 +29,68 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* Email Button */
+/* Email */
 .email-button {
-  background-color: #EA4335; /* Gmail red */
+  background-color: #EA4335; /* Gmail-red */
   color: white;
 }
-
 .email-button:hover {
   box-shadow: 0 0 10px #EA4335, 0 0 20px #EA4335, 0 0 30px #EA4335;
   transform: scale(1.05);
 }
 
-/* LinkedIn Button */
+/* LinkedIn */
 .linkedin-button {
   background-color: #0A66C2;
   color: white;
 }
-
 .linkedin-button:hover {
   box-shadow: 0 0 10px #0A66C2, 0 0 20px #0A66C2, 0 0 30px #0A66C2;
   transform: scale(1.05);
 }
 
-/* GitHub Button */
+/* GitHub */
 .github-button {
-  background-color: #333333;
+  background-color: #333;
   color: white;
 }
-
 .github-button:hover {
-  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+  box-shadow: 0 0 10px #555, 0 0 20px #555, 0 0 30px #555;
+  transform: scale(1.05);
+}
+
+/* Credly */
+.credly-button {
+  background-color: #1A73E8; /* Blueshade */
+  color: white;
+}
+.credly-button:hover {
+  box-shadow: 0 0 10px #1A73E8, 0 0 20px #1A73E8, 0 0 30px #1A73E8;
+  transform: scale(1.05);
+}
+
+/* Instagram */
+.instagram-button {
+  background: radial-gradient(circle at 30% 30%, #fdf497, #fd5949, #d6249f, #285AEB);
+  color: white;
+}
+.instagram-button:hover {
+  box-shadow: 0 0 10px #fd5949, 0 0 20px #d6249f, 0 0 30px #285AEB;
+  transform: scale(1.05);
+}
+
+/* X (Twitter) */
+.x-button {
+  background-color: #1DA1F2;
+  color: white;
+}
+.x-button:hover {
+  box-shadow: 0 0 10px #1DA1F2, 0 0 20px #1DA1F2, 0 0 30px #1DA1F2;
   transform: scale(1.05);
 }
 
@@ -75,5 +99,6 @@ button {
 h2 {
     color: #0a2540;
 }
+
 
 
