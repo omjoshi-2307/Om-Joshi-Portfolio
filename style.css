@@ -112,12 +112,14 @@ h2 {
 
 /* ===== Projects ===== */
 .project-link {
-    font-weight: 600;
-    color: #ff9800;
+    color: #0cbcd4;      /* Your preferred color */
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .project-link:hover {
-    color: #ffc107;
+    text-decoration: underline;
+    color: #00a0b0;
 }
 
 /* ===== Contact ===== */
