@@ -1,6 +1,6 @@
-# 👋 Om Joshi | Portfolio
+# Om Joshi | Portfolio
 
-Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming, and building real-world engineering projects.
+BE IT student with a strong interest in technology, programming, and building practical, real-world engineering projects.
 
 ---
 
