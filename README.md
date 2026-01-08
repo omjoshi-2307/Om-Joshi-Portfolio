@@ -5,19 +5,21 @@ Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming,
 ---
 
 ## 🔹 Highlights
-<marquee behavior="scroll" direction="left" scrollamount="6" style="color:#38bdf8;">
-🚀 Open to Internships | 💻 BE IT Student | 🤖 Robotics & Web Projects | 📚 Learning DSA & Python
-</marquee>
+![Open to Internships](https://img.shields.io/badge/Open%20to-Internships-blue) 
+![BE IT Student](https://img.shields.io/badge/BE%20IT-Student-green) 
+![Robotics & Web](https://img.shields.io/badge/Robotics%20%26%20Web-blueviolet) 
+![Learning DSA & Python](https://img.shields.io/badge/DSA%20%26%20Python-learning-orange)
 
 ---
 
 ## 🔹 Skills
-- <span style="color:#38bdf8;">C, C++</span>  
-- <span style="color:#38bdf8;">Python</span>  
-- <span style="color:#38bdf8;">Data Structures & Algorithms (DSA)</span> – Learning Journey Started  
-- <span style="color:#38bdf8;">Git & GitHub</span>  
-- <span style="color:#38bdf8;">Arduino & IoT Basics</span>  
-- <span style="color:#38bdf8;">HTML & CSS</span>  
+![C++](https://img.shields.io/badge/C++-white?style=flat&logo=c%2B%2B&logoColor=00599C) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) 
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) 
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
 ---
 
@@ -34,7 +36,7 @@ Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming,
 - 🐙 GitHub: [github.com/omjoshi-2307](https://github.com/omjoshi-2307)  
 - 📸 Instagram: [@0m.a.joshi](https://www.instagram.com/0m.a.joshi/?hl=en)  
 - 🐦 X (Twitter): [@omjoshi_2307](https://x.com/omjoshi_2307)  
-- 🎓 Credly: [Certifications](https://www.credly.com/users/om-joshi2623/edit#credly)  
+- 🎓 Credly: [Certifications](https://www.credly.com/users/om-joshi2623/edit#credly)
 
 ---
 
