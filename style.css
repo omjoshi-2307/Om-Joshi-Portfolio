@@ -1,95 +1,157 @@
+/* === Body & Global === */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background: #121212;
     color: #e0e0e0;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* === Header === */
 header {
-    background: #0a2540;
-    color: #fff;
     text-align: center;
-    padding: 30px 20px;
+    padding: 50px 20px 30px;
+    background: linear-gradient(135deg, #0a2540, #1f3c6b);
 }
 
 header h1 {
-    margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
 }
 
+header p {
+    font-size: 1.1rem;
+}
+
+.highlight-text {
+    color: #00bcd4;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+
+/* Pulse animation for important text */
+@keyframes pulse {
+    0%, 100% { color: #00bcd4; }
+    50% { color: #00e5ff; }
+}
+
+/* === Section Titles === */
 section {
-    padding: 20px;
+    padding: 25px 20px;
     border-bottom: 1px solid #333;
 }
 
 h2 {
     color: #00bcd4;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
 }
 
+/* === Badges === */
 .badges {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-top: 10px;
 }
 
 .badge {
-    padding: 5px 12px;
-    border-radius: 8px;
-    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 12px;
+    font-size: 0.85rem;
     font-weight: 500;
     color: #fff;
-    background-color: #333;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: default;
 }
 
-/* Highlight colors */
+.badge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 8px #00bcd4, 0 0 15px #00bcd4;
+}
+
+/* Badge Colors */
 .badge.open { background-color: #607d8b; }
 .badge.beit { background-color: #3f51b5; }
 .badge.student { background-color: #4caf50; }
 .badge.robotics { background-color: #9c27b0; }
 .badge.dsa { background-color: #03a9f4; }
-.badge.learning { background-color: #ff5722; }
+.badge.learning { background-color: #ff5722; animation: blink 1.5s infinite; }
 
-.projects ul {
-    list-style-type: disc;
-    margin-left: 20px;
+/* Blink animation for important badge */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
 }
 
+/* === Projects === */
+.project-link {
+    color: #ff9800;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.project-link:hover {
+    color: #ffc107;
+}
+
+/* === Contact Buttons === */
 .contact-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .contact-buttons a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #333;
-    padding: 10px 16px;
-    border-radius: 8px;
     display: flex;
     align-items: center;
     gap: 8px;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 500;
+    background: #333;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .contact-buttons a:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,188,212,0.5);
 }
 
+/* === Live Portfolio Button === */
 .view-online {
-    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
     color: #00bcd4;
     font-weight: bold;
+    border: 2px solid #00bcd4;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+.view-online:hover {
+    background-color: #00bcd4;
+    color: #121212;
 }
 
+/* === Footer === */
 footer {
     text-align: center;
-    padding: 20px;
-    font-style: italic;
+    padding: 25px 20px;
+    font-size: 0.9rem;
     color: #9e9e9e;
+    background: #0a2540;
+    border-top: 2px solid #00bcd4;
+}
+
+footer p:first-child {
+    margin-bottom: 8px;
+    font-style: italic;
+    color: #00bcd4;
 }
