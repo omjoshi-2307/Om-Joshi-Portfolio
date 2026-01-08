@@ -1,120 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Om Joshi | Portfolio</title>
+# 👋 Om Joshi | Portfolio
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
+Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming, and building real-world engineering projects.
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
+---
 
-    h1, h2 {
-      color: #38bdf8;
-    }
+## 🔹 Highlights
+![Typing Highlights](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)  
+*Simulates typing animation for: Open to Internships | BE IT Student | Robotics & Web Projects | Learning DSA & Python*
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
+---
 
-    a:hover {
-      text-decoration: underline;
-    }
+## 🔹 Skills
+![C++](https://img.shields.io/badge/C++-white?style=flat&logo=c%2B%2B&logoColor=00599C) 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) 
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) 
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
-    .badges img {
-      margin: 4px 4px 4px 0;
-      vertical-align: middle;
-    }
+---
 
-    /* Typing animation */
-    #typing {
-      border-right: 2px solid #38bdf8;
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      font-weight: bold;
-      color: #38bdf8;
-      font-size: 18px;
-    }
-  </style>
-</head>
+## 🔹 Projects
+### [WALL-E – Autonomous Obstacle Avoiding Robot](https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot)
+- Designed and developed an obstacle-avoiding robot using sensors and a microcontroller.  
+- Implemented both hardware and software logic for autonomous navigation.
 
-<body>
-  <div class="container">
-    <h1>👋 Om Joshi | Portfolio</h1>
-    <p>Hi! I am <strong>Om Joshi</strong>, a BE IT student passionate about technology, programming, and building real-world engineering projects.</p>
+---
 
-    <!-- Typing Animation Highlights -->
-    <h2>🔹 Highlights</h2>
-    <p id="typing"></p>
+## 🔹 Contact
+- ✉️ Email: [omjoshi2307@gmail.com](mailto:omjoshi2307@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/om-joshi](https://www.linkedin.com/in/om-joshi)  
+- 🐙 GitHub: [github.com/omjoshi-2307](https://github.com/omjoshi-2307)  
+- 📸 Instagram: [@0m.a.joshi](https://www.instagram.com/0m.a.joshi/?hl=en)  
+- 🐦 X (Twitter): [@omjoshi_2307](https://x.com/omjoshi_2307)  
+- 🎓 Credly: [Certifications](https://www.credly.com/users/om-joshi2623/edit#credly)
 
-    <!-- Skills -->
-    <h2>🔹 Skills</h2>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/C++-white?style=flat&logo=c%2B%2B&logoColor=00599C" alt="C++">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
-      <img src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white" alt="Arduino">
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5">
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3">
-    </div>
+---
 
-    <!-- Projects -->
-    <h2>🔹 Projects</h2>
-    <h3><a href="https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot" target="_blank">WALL-E – Autonomous Obstacle Avoiding Robot</a></h3>
-    <ul>
-      <li>Designed and developed an obstacle-avoiding robot using sensors and a microcontroller.</li>
-      <li>Implemented both hardware and software logic for autonomous navigation.</li>
-    </ul>
+## 🔹 Live Portfolio
+[View Online](https://omjoshi-2307.github.io/Om-Joshi-Portfolio/)
 
-    <!-- Contact -->
-    <h2>🔹 Contact</h2>
-    <ul>
-      <li>✉️ Email: <a href="mailto:omjoshi2307@gmail.com">omjoshi2307@gmail.com</a></li>
-      <li>💼 LinkedIn: <a href="https://www.linkedin.com/in/om-joshi" target="_blank">linkedin.com/in/om-joshi</a></li>
-      <li>🐙 GitHub: <a href="https://github.com/omjoshi-2307" target="_blank">github.com/omjoshi-2307</a></li>
-      <li>📸 Instagram: <a href="https://www.instagram.com/0m.a.joshi/?hl=en" target="_blank">@0m.a.joshi</a></li>
-      <li>🐦 X (Twitter): <a href="https://x.com/omjoshi_2307" target="_blank">@omjoshi_2307</a></li>
-      <li>🎓 Credly: <a href="https://www.credly.com/users/om-joshi2623/edit#credly" target="_blank">Certifications</a></li>
-    </ul>
+---
 
-    <!-- Live Portfolio -->
-    <h2>🔹 Live Portfolio</h2>
-    <p><a href="https://omjoshi-2307.github.io/Om-Joshi-Portfolio/" target="_blank">View Online</a></p>
-
-    <footer>
-      <p>⚡ “Building, learning, and growing every day in the world of technology.”</p>
-    </footer>
-  </div>
-
-  <!-- Typing animation script -->
-  <script>
-    const text = "🚀 Open to Internships | 💻 BE IT Student | 🤖 Robotics & Web Projects | 📚 Learning DSA & Python";
-    let i = 0;
-    const speed = 100; // milliseconds per character
-
-    function typeWriter() {
-      if (i < text.length) {
-        document.getElementById("typing").innerHTML += text.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-
-    typeWriter();
-  </script>
-</body>
-</html>
+> ⚡ “Building, learning, and growing every day in the world of technology.”
