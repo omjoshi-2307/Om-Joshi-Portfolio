@@ -32,7 +32,7 @@ BE IT student with a strong interest in technology, programming, and building pr
 
 ## 🔹 Contact
 - ✉️ Email: [omjoshi2307@gmail.com](mailto:omjoshi2307@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/om-joshi](https://www.linkedin.com/in/om-joshi)  
+- 💼 LinkedIn: [linkedin.com/in/om-joshi](https://www.linkedin.com/in/0m-joshi2307)  
 - 🐙 GitHub: [github.com/omjoshi-2307](https://github.com/omjoshi-2307)  
 - 📸 Instagram: [@0m.a.joshi](https://www.instagram.com/0m.a.joshi/?hl=en)  
 - 🐦 X (Twitter): [@omjoshi_2307](https://x.com/omjoshi_2307)  
