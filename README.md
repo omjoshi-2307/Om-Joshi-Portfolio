@@ -5,8 +5,10 @@ Hi! I am **Om Joshi**, a BE IT student passionate about technology, programming,
 ---
 
 ## 🔹 Highlights
-![Typing Highlights](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)  
-*Simulates typing animation for: Open to Internships | BE IT Student | Robotics & Web Projects | Learning DSA & Python*
+![Open to Internships](https://img.shields.io/badge/Open%20to-Internships-blue) 
+![BE IT Student](https://img.shields.io/badge/BE%20IT-Student-green) 
+![Robotics & Web](https://img.shields.io/badge/Robotics%20%26%20Web-blueviolet) 
+![Learning DSA & Python](https://img.shields.io/badge/DSA%20%26%20Python-learning-orange)
 
 ---
 
