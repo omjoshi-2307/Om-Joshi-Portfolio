@@ -82,13 +82,22 @@ body {
   color: transparent;
 }
 
+.highlights {
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
 .highlights span {
-  background: var(--gradient);
-  color: #fff;
+  white-space: nowrap;     
+  font-size: 0.85rem;
   padding: 0.45rem 0.9rem;
   border-radius: 999px;
-  font-size: 0.85rem;
+  background: var(--gradient);
+  color: #fff;
 }
+
 
 .hero-image-wrapper img {
   width: 260px;
