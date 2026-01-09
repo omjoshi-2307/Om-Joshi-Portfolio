@@ -1,34 +1,51 @@
-/* ===== Global ===== */
+/* ===== CSS RESET ===== */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/* ===== ROOT THEME ===== */
+:root {
+  --bg: #121212;
+  --bg-soft: #1f1f1f;
+  --text: #e6e6e6;
+  --muted: #b0bec5;
+  --accent: #00bcd4;
+}
+
+/* ===== GLOBAL ===== */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, sans-serif;
-  background: #121212;
-  color: #e6e6e6;
+  background: var(--bg);
+  color: var(--text);
   line-height: 1.6;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: inherit;
 }
 
-/* ===== Navigation ===== */
+/* ===== NAVIGATION ===== */
 .nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(18,18,18,0.85);
+  backdrop-filter: blur(10px);
+
   max-width: 900px;
-  margin: 0 auto 48px;
-  padding: 0 20px;
+  margin: auto;
+  padding: 16px 20px;
 
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -38,97 +55,100 @@ nav {
 
 nav a {
   font-size: 0.9rem;
-  color: #b0bec5;
+  color: var(--muted);
   position: relative;
-}
-
-nav a:hover {
-  color: #00bcd4;
 }
 
 nav a::after {
   content: "";
   position: absolute;
+  bottom: -6px;
   left: 0;
-  bottom: -4px;
   width: 0;
   height: 2px;
-  background: #00bcd4;
+  background: var(--accent);
   transition: width 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--accent);
 }
 
 nav a:hover::after {
   width: 100%;
 }
 
-/* ===== Hero ===== */
+/* ===== HERO ===== */
 .hero {
   text-align: center;
-  padding: 56px 20px 48px;
+  padding: 64px 20px 56px;
 }
 
 .logo {
   width: 56px;
   height: 56px;
+  margin: 0 auto 18px;
   display: flex;
   align-items: center;
   justify-content: center;
 
   font-weight: 700;
   letter-spacing: 1px;
-  color: #00bcd4;
-  border: 2px solid #00bcd4;
+  color: var(--accent);
+  border: 2px solid var(--accent);
   border-radius: 14px;
+
+  transition: all 0.3s ease;
 }
 
 .logo:hover {
   box-shadow: 0 0 14px rgba(0,188,212,0.6);
+  transform: scale(1.05);
 }
 
 .hero h1 {
-  margin: 0;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
+  animation: fadeUp 1s ease forwards;
 }
 
 .subtitle {
   margin-top: 8px;
-  color: #b0bec5;
-  font-size: 1rem;
+  color: var(--muted);
+  animation: fadeUp 1.4s ease forwards;
 }
 
-/* ===== Sections ===== */
+/* ===== SECTIONS ===== */
 section {
   max-width: 900px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 56px 20px;
 }
 
 h2 {
   font-size: 1.4rem;
-  margin-bottom: 16px;
-  color: #00bcd4;
+  margin-bottom: 20px;
+  color: var(--accent);
 }
 
-/* ===== About ===== */
+/* ===== ABOUT ===== */
 .about p {
-  max-width: 900px;
   margin-bottom: 16px;
   font-size: 0.95rem;
   color: #cfd8dc;
 }
 
 .about strong {
-  color: #00bcd4;
+  color: var(--accent);
 }
 
 .about .mission {
   margin-top: 22px;
-  font-style: italic;
-  color: #00bcd4;
   text-align: center;
+  font-style: italic;
+  color: var(--accent);
 }
 
-/* ===== Badges ===== */
+/* ===== BADGES ===== */
 .badges {
   display: flex;
   flex-wrap: wrap;
@@ -139,40 +159,50 @@ h2 {
   padding: 6px 14px;
   font-size: 0.85rem;
   border-radius: 999px;
-  background: #1f1f1f;
-  color: #e0e0e0;
+  background: var(--bg-soft);
 }
 
 .badge.accent {
-  background: #00bcd4;
+  background: var(--accent);
   color: #121212;
   font-weight: 600;
 }
 
 .badge.accent-soft {
-  border: 1px solid #00bcd4;
-  color: #00bcd4;
+  border: 1px solid var(--accent);
+  color: var(--accent);
 }
 
-/* ===== Projects ===== */
-.project-link {
-  display: inline-block;
-  margin-bottom: 10px;
-  font-weight: 600;
+/* ===== PROJECT CARDS ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
 }
 
-.project-link:hover {
-  color: #00bcd4;
+.project-card {
+  background: var(--bg-soft);
+  padding: 20px;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-desc {
-  margin: 0;
-  padding-left: 18px;
-  color: #b0bec5;
-  font-size: 0.95rem;
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-/* ===== Contact ===== */
+.project-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ===== CONTACT ===== */
 .contact-buttons {
   display: flex;
   gap: 16px;
@@ -183,23 +213,52 @@ h2 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: #1f1f1f;
+  background: var(--bg-soft);
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   transition: all 0.25s ease;
 }
 
 .contact-buttons a:hover {
-  background: #00bcd4;
+  background: var(--accent);
   color: #121212;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 
-/* ===== Footer ===== */
+/* ===== FOOTER ===== */
 footer {
   text-align: center;
   padding: 32px 20px;
   color: #9e9e9e;
   font-size: 0.85rem;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  nav {
+    gap: 18px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 44px 16px;
+  }
 }
