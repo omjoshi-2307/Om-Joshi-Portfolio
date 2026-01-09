@@ -55,6 +55,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .nav-links a,
@@ -71,7 +72,7 @@ body {
   display: none;
   background: none;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--text);
 }
 
@@ -83,7 +84,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .hero h2 {
@@ -118,7 +119,7 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
 }
 
@@ -148,7 +149,7 @@ body {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
@@ -158,7 +159,7 @@ body {
   border-radius: 0.75rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.6rem;
 }
 
 .project-card a {
@@ -176,7 +177,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .contact-links a {
@@ -193,16 +194,21 @@ body {
   .menu-toggle {
     display: block;
   }
+
   .nav-links {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: 1rem;
     background: var(--bg);
     flex-direction: column;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
     display: none;
+    gap: 1rem;
   }
+
   .nav-links.active {
     display: flex;
   }
