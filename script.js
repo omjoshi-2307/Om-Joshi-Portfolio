@@ -1,12 +1,17 @@
-const toggle = document.getElementById("themeToggle");
-const icon = toggle.querySelector("i");
+const menuToggle = document.querySelector('.menu-toggle')
+const navLinks = document.querySelector('.nav-links')
+const themeToggle = document.querySelector('.theme-toggle')
 
-toggle.onclick = () => {
-  document.body.classList.toggle("light");
-  icon.classList.toggle("fa-moon");
-  icon.classList.toggle("fa-sun");
-};
+menuToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active')
+})
 
-document.getElementById("hamburger").onclick = () => {
-  document.querySelector(".nav-links").classList.toggle("active");
-};
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme')
+  document.documentElement.setAttribute(
+    'data-theme',
+    current === 'dark' ? 'light' : 'dark'
+  )
+})
+
+document.documentElement.setAttribute('data-theme', 'light')
