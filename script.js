@@ -6,6 +6,12 @@ menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('active')
 })
 
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active')
+  })
+})
+
 themeToggle.addEventListener('click', () => {
   const current = document.documentElement.getAttribute('data-theme')
   document.documentElement.setAttribute(
