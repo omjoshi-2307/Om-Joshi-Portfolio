@@ -14,10 +14,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 
 themeToggle.addEventListener('click', () => {
   const current = document.documentElement.getAttribute('data-theme')
-  document.documentElement.setAttribute(
-    'data-theme',
-    current === 'dark' ? 'light' : 'dark'
-  )
+  document.documentElement.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark')
 })
 
 document.documentElement.setAttribute('data-theme', 'light')
