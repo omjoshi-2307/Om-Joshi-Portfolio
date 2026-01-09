@@ -1,97 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Om Joshi | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-
 <body>
-<header class="hero">
-  <div class="nav">
-    <div class="logo nav-logo">OJ</div>
-
-    <nav class="nav-links">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="nav-actions">
-      <button id="themeToggle"><i class="fas fa-moon"></i></button>
-      <button class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-
-  <h1>Om Joshi</h1>
-  <p class="subtitle">BE IT Student • Aspiring Software Engineer</p>
-</header>
-
-<section>
-  <h2>Highlights</h2>
-  <div class="badges">
-    <span class="badge accent">Open to Internships</span>
-    <span class="badge">BE IT</span>
-    <span class="badge">Student</span>
-    <span class="badge">Robotics & Web</span>
-    <span class="badge">DSA & Python</span>
-    <span class="badge accent-soft">Learning</span>
-  </div>
-</section>
-
-<section id="about" class="about">
-  <h2>About Me</h2>
-  <p>I’m <strong>Mr. Om Joshi</strong>, a B.E. IT student from Pune driven by a passion for technology, coding, and creative problem-solving.</p>
-  <p>I aspire to be a <strong>Software Engineer</strong>, continuously sharpening problem-solving, leadership, and teamwork abilities.</p>
-  <p class="mission">My mission is to master practical skills and build meaningful digital solutions.</p>
-</section>
-
-<section id="education">
-  <h2>Education</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <span class="time">2023 – Present</span>
-      <h3>B.E. Information Technology</h3>
-      <p>PCET’s NMIE&T, Pune</p>
-    </div>
-  </div>
-</section>
-
-<section id="work">
-  <h2>Projects</h2>
-  <div class="projects-grid">
-    <article class="project-card">
-      <h3>WALL-E</h3>
-      <p class="project-subtitle">Autonomous Obstacle Avoiding Robot</p>
-      <ul>
-        <li>Sensor-based navigation</li>
-        <li>Hardware-software integration</li>
+  <header class="header">
+    <nav class="nav">
+      <div class="brand">Om Joshi</div>
+      <button class="menu-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" aria-label="Theme"><i class="fas fa-moon"></i></button></li>
       </ul>
-      <a href="https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot" target="_blank" class="project-btn">View Project →</a>
-    </article>
-  </div>
-</section>
+    </nav>
+  </header>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <div class="contact-buttons">
-    <a href="mailto:omjoshi2307@gmail.com"><i class="fas fa-envelope"></i></a>
-    <a href="https://www.linkedin.com/in/0m-joshi2307" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://github.com/omjoshi-2307" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://www.credly.com/users/om-joshi2623" target="_blank"><i class="fas fa-certificate"></i></a>
-  </div>
-</section>
+  <main>
+    <section class="hero">
+      <h1>Om Joshi</h1>
+      <h2>BE IT Student | Software & Frontend Developer</h2>
+      <p>Building practical web projects, strengthening DSA, and actively seeking internship opportunities</p>
+      <div class="highlights">
+        <span>Open to Internships</span>
+        <span>BE IT</span>
+        <span>Student</span>
+        <span>Robotics & Web</span>
+        <span>DSA & Python</span>
+        <span>Learning</span>
+      </div>
+    </section>
 
-<footer>
-  <p>Building, learning, and growing in technology.</p>
-  <span>© 2026 Om Joshi</span>
-</footer>
+    <section id="about" class="section">
+      <h3>About Me</h3>
+      <p>I am a BE Information Technology student with a strong interest in software development and frontend engineering. I focus on building practical projects while strengthening my foundations in computer science.</p>
+      <p>My academic journey has equipped me with problem-solving skills and a structured approach to learning technology.</p>
+      <p>I aspire to become a Software Engineer who builds meaningful digital solutions that create real-world impact.</p>
+      <p>My mission is to continuously learn, experiment, and contribute to products that blend usability with robust engineering.</p>
+    </section>
 
-<script src="script.js"></script>
+    <section class="section">
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <div>
+          <h4>Programming Languages</h4>
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Web Development</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Responsive Design</li>
+            <li>JavaScript DOM</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Core Computer Science</h4>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>Object-Oriented Programming</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Tools & Platforms</h4>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Arduino IDE</li>
+            <li>Linux Basics</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Currently Learning</h4>
+          <ul>
+            <li>Advanced DSA</li>
+            <li>Frontend Frameworks</li>
+            <li>Real-world Project Architecture</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h3>Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-year">2023 – Present</span>
+          <div>
+            <h4>B.E. Information Technology</h4>
+            <p>PCET’s NMIE&T, Pune</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h3>Projects</h3>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h4>WALL-E – Autonomous Obstacle Avoiding Robot</h4>
+          <p><strong>Category:</strong> Hardware + Software</p>
+          <p><strong>Tech Stack:</strong> Arduino UNO, Ultrasonic Sensors, Embedded C/C++</p>
+          <p><strong>Problem:</strong> Autonomous obstacle detection and navigation</p>
+          <p><strong>Solution:</strong> Sensor-based distance measurement and real-time motor control logic</p>
+          <p><strong>Learnings:</strong> Hardware–software integration, debugging, sensor calibration, teamwork</p>
+          <a href="https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot" target="_blank">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h3>Contact</h3>
+      <div class="contact-links">
+        <a href="mailto:omjoshi2307@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/0m-joshi2307" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/omjoshi-2307" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.credly.com/users/om-joshi2623" target="_blank"><i class="fas fa-certificate"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Building, learning, and growing in technology</p>
+    <p>Actively seeking internships and entry-level roles</p>
+    <p>© 2026 Om Joshi</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
