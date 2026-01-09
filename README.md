@@ -28,7 +28,7 @@ BE IT student with a strong interest in technology, programming, and building pr
   <a href="https://github.com/omjoshi-2307/WALL-E-Autonomous-Obstacle-Avoiding-Robot">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&color=7852A9&width=880&lines=WALL-E+-+Autonomous+Obstacle+Avoiding+Robot" />
   </a>
-</p>
+</p><br>
 - Designed and developed an obstacle-avoiding robot using sensors and a microcontroller.  <br>
 - Implemented both hardware and software logic for autonomous navigation.
 
