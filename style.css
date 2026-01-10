@@ -35,13 +35,10 @@ body {
 section {
   scroll-margin-top: var(--header-height);
 }
-
 .header {
   position: sticky;
   top: 0;
-  height: var(--header-height);
-  background: var(--bg);
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .nav {
@@ -150,17 +147,20 @@ section {
 .highlights {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.6rem;
-  margin-top: 1rem;
+  max-width: 100%;
+  margin: 1.5rem auto 0;
 }
 
 .highlights span {
-  white-space: nowrap;
-  font-size: 0.85rem;
+  background: linear-gradient(135deg, #522B5B, #854F6C);
+  color: #fff;
   padding: 0.45rem 0.9rem;
   border-radius: 999px;
-  background: var(--gradient);
-  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .hero-image-wrapper {
