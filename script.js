@@ -1,21 +1,23 @@
-const menuToggle = document.querySelector('.menu-toggle')
-const navLinks = document.querySelector('.nav-links')
-const themeToggle = document.querySelector('.theme-toggle')
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.menu-toggle')
+  const navLinks = document.querySelector('.nav-links')
+  const themeToggle = document.querySelector('.theme-toggle')
 
-menuToggle.addEventListener('click', () => {
-  navLinks.classList.toggle('active')
-})
-
-navLinks.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    navLinks.classList.remove('active')
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
   })
-})
 
-themeToggle.addEventListener('click', () => {
-  const root = document.documentElement
-  const current = root.getAttribute('data-theme') || 'light'
-  root.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark')
-})
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active')
+    })
+  })
 
-document.documentElement.setAttribute('data-theme', 'light')
+  themeToggle.addEventListener('click', () => {
+    const root = document.documentElement
+    const current = root.getAttribute('data-theme') || 'light'
+    root.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark')
+  })
+
+  document.documentElement.setAttribute('data-theme', 'light')
+})
